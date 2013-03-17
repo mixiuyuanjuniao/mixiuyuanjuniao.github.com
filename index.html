@@ -1,0 +1,529 @@
+<!doctype html>	
+<html>
+<head>
+	<title>米修米修</title>
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" href="css/slideshow.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	
+	<script src="js/mootools-1.3.2-core.js"></script>
+	<script src="js/mootools-1.3.2.1-more.js"></script>
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/slideshow.js"></script>	
+	<script src="js/slideshow.kenburns-push.min.js"></script>
+	
+
+	
+	<script type="text/javascript" src="js/jquery.plugins.js"></script>
+	<script type="text/javascript" src="js/jquery.masonry.min.js"></script>
+	<!--<script type="text/javascript" src="js/jquery.snow.min.js"></script>-->
+	<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
+
+	
+	<script>
+		window.addEvent('domready', function(){
+			var data = { 
+				'1.jpg':{ caption:'这姑凉是波斯来的吧。。。'}, 
+				'2.jpg':{ caption:'下次跑步可以叫我哦。。嘿嘿'}, 
+				'3.jpg':{ caption:'素颜的美，才是真的美啊！'}, 				
+				'5.jpg':{caption:'你是不相信爱情了么'},
+				'6.jpg':{caption:'赚钱的最佳境界：不劳而获！'},
+				'7.jpg':{caption:'火星男。。。'},
+				'8.jpg':{caption:'这姑凉应该有十八了吧。。'},
+				'9.jpg':{caption:'哎，你是单细胞吧，饿了就嗷嗷叫，喂饱了就嘻嘻笑！'},
+				'10.jpg':{caption:'一个字，清新怡人。。'},
+				'11.jpg':{caption:'他肯定是想换换口味，吃麻雀。。'},				
+				'13.jpg':{caption:'你也打台球？？？'},				
+				'15.jpg':{caption:'这不会都是你吧。。'},
+				'16.jpg':{caption:'生日快乐'}
+				
+			};
+
+			
+			new Slideshow.KenBurns('kenburns', data, { duration: 5000, hu: 'images/', height: 400, width: 700 });
+
+			$("img.love-letter,img.lazy").lazyload();
+			
+		});
+	</script>
+</head>
+<body>
+	
+	<div id="show">
+
+		<div id="kenburns" class="slideshow">
+			<img src="images/1.jpg" alt="1">
+		</div>
+
+	</div>
+
+	<div id="heart">
+		
+
+		<a href="letter/a.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/a.png" class="love-letter" style="position:absolute; left: 440px; top: 107px;"></a>
+		<a href="letter/z.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/z.png" class="love-letter" style="position:absolute; left: 495px; top: 108px;"></a>
+		<a href="letter/b.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/b.png" class="love-letter" style="position:absolute; left: 395px; top: 71px;"></a>
+    	<a href="letter/y.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/y.png" class="love-letter" style="position:absolute; left: 540px; top: 71px;"></a>
+		<a href="letter/c.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/c.png" class="love-letter" style="position:absolute; left: 350px; top: 40px;"></a>
+    	<a href="letter/x.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/x.png" class="love-letter" style="position:absolute; left: 586px; top: 41px;"></a>
+		<a href="letter/d.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/d.png" class="love-letter" style="position:absolute; left: 296px; top: 66px;"></a>
+		<a href="letter/w.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/w.png" class="love-letter" style="position:absolute; left: 644px; top: 63px;"></a>
+		<a href="letter/e.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/e.png" class="love-letter" style="position:absolute; left: 264px; top: 96px;"></a>
+		<a href="letter/v.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/v.png" class="love-letter" style="position:absolute; left: 685px; top: 95px;"></a>
+		<a href="letter/f.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/f.png" class="love-letter" style="position:absolute; left: 234px; top: 139px;"></a>
+		<a href="letter/u.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/u.png" class="love-letter" style="position:absolute; left: 701px; top: 143px;"></a>
+		<a href="letter/g.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/g.png" class="love-letter" style="position:absolute; left: 243px; top: 190px;"></a>
+		<a href="letter/t.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/t.png" class="love-letter" style="position:absolute; left: 696px; top: 191px;"></a>
+		<a href="letter/h.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/h.png" class="love-letter" style="position:absolute; left: 261px; top: 239px;"></a>
+		<a href="letter/s.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/s.png" class="love-letter" style="position:absolute; left: 677px; top: 238px;"></a>
+		<a href="letter/i.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/i.png" class="love-letter" style="position:absolute; left: 283px; top: 287px;"></a>
+		<a href="letter/r.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/r.png" class="love-letter" style="position:absolute; left: 652px; top: 275px;"></a>
+		<a href="letter/j.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/j.png" class="love-letter" style="position:absolute; left: 319px; top: 324px;"></a>
+		<a href="letter/q.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/q.png" class="love-letter" style="position:absolute; left: 617px; top: 315px;"></a>
+		<a href="letter/k.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/k.png" class="love-letter" style="position:absolute; left: 359px; top: 361px;"></a>
+		<a href="letter/o.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/o.png" class="love-letter" style="position:absolute; left: 556px; top: 399px;"></a>
+		<a href="letter/l.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/l.png" class="love-letter" style="position:absolute; left: 395px; top: 396px;"></a>
+		<a href="letter/p.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/p.png" class="love-letter" style="position:absolute; left: 588px; top: 358px;"></a>
+		<a href="letter/n.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/n.png" class="love-letter" style="position:absolute; left: 518px; top: 434px;"></a>
+		<a href="letter/m.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/m.png" class="love-letter" style="position:absolute; left: 430px; top: 431px;"></a>
+		<a href="letter/love.jpg" class="fancybox"><img src="lt/ph.jpg" data-original="lt/love.png" class="love-letter" style="position:absolute; left: 469px; top: 460px;"></a>
+
+
+
+
+    	
+    	<a href="letter/1.jpg" class="fancybox">
+    		<img src="lt/1.png" class="love-photo" style="position:absolute; left: 642px; top: 168px; width: 43px; height: 49px;"></a>
+    	
+    	<a href="letter/2.jpg" class="fancybox">
+    		<img src="lt/2.png" width="45" height="47" class="love-photo" style="position:absolute; left: 585px; top: 254px; width: 55px; height: 46px;"></a>
+    	
+    	<a href="letter/3.jpg" class="fancybox">
+    		<img src="lt/3.png" class="love-photo" style="position:absolute; left: 461px; top: 341px; width: 79px; height: 67px;"></a>
+    	
+    	<a href="letter/4.jpg" class="fancybox">
+    		<img src="lt/4.png" class="love-photo" style="position:absolute; left: 539px; top: 171px; width: 83px; height: 80px;"></a>
+    	
+    	<a href="letter/6.jpg" class="fancybox">
+    		<img src="lt/6.png" class="love-photo" style="position:absolute; left: 440px; top: 155px;"></a>
+    	
+    	<a href="letter/7.jpg" class="fancybox">
+    		<img src="lt/7.png" width="52" height="47" class="love-photo" style="position:absolute; left: 429px; top: 281px; width: 63px; height: 57px;"></a>
+    	
+    	<a href="letter/8.jpg" class="fancybox">
+    		<img src="lt/8.png" width="75" height="75" class="love-photo" style="position:absolute; left: 581px; top: 91px; width: 78px; height: 76px;"></a>
+    	
+    	<a href="letter/9.jpg" class="fancybox">
+    		<img src="lt/9.png" class="love-photo" style="position:absolute; left: 381px; top: 207px;"></a>
+    	
+    	<a href="letter/10.jpg" class="fancybox">
+    		<img src="lt/10.png" width="96" height="97" class="love-photo" style="position:absolute; left: 490px; top: 243px; width: 92px; height: 89px;"></a>
+    	
+    	<a href="letter/11.jpg" class="fancybox">
+    		<img src="lt/11.png" width="79" height="79" class="love-photo" style="position:absolute; left: 318px; top: 106px; width: 98px; height: 89px;"></a>
+    	
+    	<a href="letter/12.jpg" class="fancybox">
+    		<img src="lt/12.png" width="49" height="48" class="love-photo" style="position:absolute; left: 306px; top: 201px; width: 66px; height: 61px;"></a>
+
+    	<a href="letter/13.jpg" class="fancybox">
+    		<img src="lt/13.png" width="54" height="46" class="love-photo" style="position:absolute; left: 369px; top: 291px; width: 50px; height: 50px;"></a>
+
+
+
+</div>
+
+
+
+<script type="text/javascript">
+		$(function(){
+			$(".fancybox").fancybox();
+
+		var imgs=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+
+
+		for(var i=0;i<imgs.length;i++){
+			(new Image()).src="letter/"+imgs[i]+".jpg";
+		}
+			
+
+		/*	$("#imgBox").masonry({
+				 itemSelector : '.item'
+			});
+*/
+		
+		var $container = $('#imgBox');
+		$container.imagesLoaded(function(){
+		  $container.masonry({
+		    itemSelector : '.item',
+		    
+		  });
+		});
+
+
+		})
+</script>
+
+
+
+
+
+
+<div id="login" style="display:none;">
+	<a href="#" class="login-logo "></a>
+	<p class="login-tip" style="display:none;">密码不正确</p>
+	<input type="password" class="pwd"><br/>
+	<input type="button" class="sigin" value="">
+</div>
+	
+<script type="text/javascript">
+
+
+		(function(){
+
+			// $.fn.snow();
+
+			$("#login").fancybox({
+				closeBtn:false,
+				helpers : {
+				        overlay : {
+				            css : {
+				                'background' : 'rgba(0, 0, 0, 0.95)'
+				            }
+				        }
+				},
+				width:400,
+				height:300
+
+			}).trigger("click");
+
+
+			var p;
+			$(".pwd").focus(function(){
+				
+
+			}).keyup(function(){
+				p=$.trim($(this).val().toLowerCase());
+
+				if(p==="fangfang"){
+					$(".login-tip").hide();					
+					$(".login-logo").addClass("input-ok");
+				}else{
+					$(".login-logo").removeClass("input-ok");
+				}
+			});
+			$(".sigin").click(function(){
+
+
+				if(p==="fangfang"){
+					$.fancybox.close( true );
+					$(".login-tip").hide();
+				}else{
+					$(".login-tip").show();
+				}
+				
+			});
+
+			$("#login *,").click(function(){
+				return false;
+			});
+
+			$(".fancybox-overlay").unbind();
+		})();
+
+			
+		
+</script>
+
+
+
+<div id="imgBox">
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/1.jpg" height="160"> <p>美女，我是青蛙王子，电话留一个呗</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/2.jpg" height="249"> <p>嗯？跟你说过多少遍了，我看报的时候不要来打扰我！</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/3.jpg" height="1085"> <p>讨厌！伦家真的不是汤圆啦！！</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/4.gif" height="240"> <p>主银，你来啦，拉我一把好么。。</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/5.gif" height="192"> <p>“次奥，你说怎么打不开呢？” “次奥，你打不开，你打我有什么用？！” </p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/6.gif" height="192"> <p>这货会手语！和主淫沟通无障碍啊</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/7.jpg" height="436"> <p>躲了半天了都没人找着，真心无聊，孤独求败啊！</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/8.gif" height="120"> <p>邪门了，我就不信要不疼你，我咬。。</p>
+	</div>
+
+
+
+
+
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/9.gif" height="193"> <p>叫你打我，要你好看！</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/10.gif" height="191"> <p>不要吃惊，强迫症猫都这样</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/11.gif" height="255"> <p>猫粮呢？？？</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/12.gif" height="192"> <p>这脚也辛苦一天了，洗洗早点睡了</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/13.jpg" height="127"> <p>一到下午就一副死相</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/14.gif" height="145"> <p>小小吃货一枚</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/15.jpg" height="330"> <p>下午没带它们出去玩，一回家发现一个个都在装死~~</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/16.jpg" height="237"> <p>麻麻，刚才邻居家的猫吃了这么大条与~~~</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/17.gif" height="172"> <p>尼玛正愁没有伴，抓回去当压寨夫人！</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/18.gif" height="141"> <p>孩子，你是切入“手动模式”了吧。。</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/19.jpg" height="288"> <p>神马，今天居然还是周一！！！！不是已经上了一天班了么</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/20.png" height="275"> <p>去逛街对吧？主银，我准备好了~</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/21.gif" height="128"> <p>乖~听话，不要咬手指，有细菌的哦~</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/22.gif" height="135"> <p>主银，看我发大招…… </p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/23.gif" height="145"> <p>小样，想摸我，没门！！</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/24.jpg" height="165"> <p>喵了个咪的，撞衫了。。”“兔了个子的，撞衫了。。</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/25.jpg" height="129"> <p>来，我们比装死，看谁厉害。</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/26.gif" height="281"> <p>昨天晚上跟男朋友聊到2点才睡，啊，好····困············</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/27.gif" height="192"> <p>躲猫猫被发现了......</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/28.gif" height="152"> <p>瘦不了的永远在骚动，吃不胖的都有恃无恐</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/29.gif" height="144"> <p>现在猫咪们不用自己的唾液洗脸了?高级了啊、、、</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/30.jpg" height="260"> <p>喵了个咪，隔壁又买黄花鱼了</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/31.gif" height="256"> <p>小样，偷拍，被我抓住了吧</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/32.jpg" height="270"> <p>知道什么叫优雅，什么叫气质~~！</p>
+	</div>
+
+
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/33.jpg" height="184"> <p>以萌为主，以二为辅</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/34.gif" height="180"> <p>睡觉前，还有比这俩二货做的事更无聊么</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/35.gif" height="144"> <p>快乐，就是这么简单！</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/36.jpg" height="266"> <p>你妈喊你回家吃饭了</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/37.gif" height="144"> <p>哎，一到中午就想碎觉</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/38.gif" height="144"> <p>告诉你吧，我是外星鸟。。吓尿了吧</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/39.jpg" height="264"> <p>遥想当年小蛮腰，空余恨，一身五花膘。</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/40.png" height="251"> <p>伦家真的没有画眼线喔……喔</p>
+	</div>
+
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/41.gif" height="134"> <p>跟你说了多少次了，不要摸我的脸。。</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/42.gif" height="148"> <p>打死你，打死你。。。。嗯？我们为什么打架！！</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/43.gif" height="144"> <p>只要有鱼吃，我什么都会</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/44.jpg" height="117"> <p>偶很愤怒，为啥没鱼给偶吃。。。</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/45.gif" height="137"> <p>哥，我闻到胡萝卜味儿了”“没错，我也闻到了，就是这个味儿！</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/46.gif" height="240"> <p>我可是当过兵的哟</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/47.gif" height="196"> <p>打发点吧。。。</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/48.jpg" height="274"> <p>你才是包子，你们全家都是包子。。</p>
+	</div>
+
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/49.jpg" height="193"> <p>早上抓了只老鼠，大概。。。差不多这么大只！！对，那么大只！！~~~~</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/50.jpg" height="141"> <p>早上经常这样，偷偷瞟一眼舍友的床，只要有一个还在被窝里的，那就像真理一样，继续睡~</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/51.gif" height="126"> <p>男朋友不要我了，撞死我好了</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/52.gif" height="144"> <p>“看我的软骨功~~”“不行啊，尾巴在外面，给你塞进去~~”</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/53.gif" height="128"> <p>叫你平常用鞭子打我，下去吧！你！</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/54.gif" height="138"> <p>有种你学我！我让你哭的很有节奏...</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/55.gif" height="144"> <p>为了和洗澡做斗争，我练就了一身武艺。。</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/56.gif" height="142"> <p>嘿嘿，主银，吃什么呢，给我吃点</p>
+	</div>
+
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/57.gif" height="151"> <p>主银，我们来玩儿剪刀石头布吧</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/58.jpg" height="275"> <p>就刚刚，女朋友说她喜欢上了一个高富帅。。。</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/59.jpg" height="384"> <p>这么大的虾，竟然只让我看，不让我吃！我很生气，很生气！</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/60.jpg" height="144"> <p>我们还能不能再见面， 我在佛前苦苦求了几千年。。。。。。</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/68.jpg" height="275"> <p>“120电话多少号啊？” “你傻啊？120多少号你不会打114问那？！”</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/61.jpg" height="464"> <p>脸大的忧伤你懂吗？</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/62.gif" height="144"> <p>无聊也是一种境界啊~</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/63.jpg" height="274"> <p>放开，我就看看，我不碰。。。</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/64.jpg" height="226"> <p>哥，妈妈呢，我饿了</p>
+	</div>
+
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/65.jpg" height="265"> <p>为了窈窕身材，我拼了……</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/66.gif" height="144"> <p>一个人吃，你好意思么</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/67.gif" height="125"> <p>呀，老婆，你回来啦，那货没把肿么样吧</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/69.gif" height="112"> <p>这位喵星人，睡觉都在打拍子。。太刻苦了！。。</p>
+	</div>
+
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/71.jpg" height="247"> <p>苍天啊！大地啊！救救我吧！</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/72.jpg" height="191"> <p>用飘柔，就是介么自信！</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/73.jpg" height="262"> <p>到哪都得有气场！要hold住！</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/74.jpg" height="171"> <p>我跟你说个实价吧，最少这个数……</p>
+	</div>
+	
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/75.jpg" height="281"> <p>你快回来~~<br/>我一人承受不来你快回来~~<br/>把我的思念带回来……</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/76.jpg" height="249"> <p>真正的人生，就是躺在水上晒太阳……</p>
+	</div>
+		<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/77.jpg" height="249"> <p>麻麻——锅锅又欺负我了……</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/78.jpg" height="239"> <p>猫小贱。。</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/79.jpg" height="256"> <p>这一招……乃们不会吧！</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/80.jpg" height="250"> <p>爸爸，赶紧回家吧，他们说你是狼......</p>
+	</div>
+	<div class="item">
+		<img class="lazy" src="images/animal/ph.jpg" data-original="images/animal/70.jpg" height="289"> <p>我一直在关注你，用一切你知道或不知道的方式……</p>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- <div class="item">
+		<img src="images/animal/.jpg"> <p></p>
+	</div>
+ -->
+
+ 
+
+
+	
+</div>
+	
+</body>
+</html>
